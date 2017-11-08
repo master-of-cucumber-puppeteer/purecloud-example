@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/master-of-cucumber-puppeteer/purecloud-example#readme",
   "dependencies": {
-    "cucumber-puppeteer": "git+https://github.com/master-of-cucumber-puppeteer/cucumber-puppeteer.git"
+    "cucumber-puppeteer": "git+https://github.com/master-of-cucumber-puppeteer/cucumber-puppeteer.git",
+    "purecloud-platform-client-v2": "^12.0.0"
   }
 }
