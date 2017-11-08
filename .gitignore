@@ -1,0 +1,7 @@
+.git/
+*.DS_Store*
+node_modules/
+pcdwebk-org-app-config.yaml
+
+.screenshots/
+.reports/

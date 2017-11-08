@@ -1,0 +1,30 @@
+{
+  "name": "purecloud-example",
+  "version": "1.0.0",
+  "description": "Automated UI tests for Purecloud using cucumber/puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node ./node_modules/.bin/pretest.js",
+    "gen-report": "node ./node_modules/.bin/posttest.js",
+    "test": "cucumber-js -f json:.reports/cucumber_report.json; npm run gen-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/master-of-cucumber-puppeteer/purecloud-example.git"
+  },
+  "keywords": [
+    "purecloud",
+    "cucumber",
+    "js",
+    "puppeteer"
+  ],
+  "author": "Casey Nordcliff, Mabry Cervin, Charlie Duong, Jesse Schwartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/master-of-cucumber-puppeteer/purecloud-example/issues"
+  },
+  "homepage": "https://github.com/master-of-cucumber-puppeteer/purecloud-example#readme",
+  "dependencies": {
+    "cucumber-puppeteer": "git+https://github.com/master-of-cucumber-puppeteer/cucumber-puppeteer.git"
+  }
+}
