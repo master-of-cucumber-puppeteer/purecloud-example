@@ -1,5 +1,3 @@
-#Reconciled with TCDB on GIMPY at 8/15/2017 10:09:13 AM
-@Tcdb.TestPlanId=277 @Tcdb.TestSuiteId=2458 @chat @chat-messaging
 Feature: Chat: Messaging
     In order to add functionality to the collaborate client
     As a business user
@@ -8,7 +6,6 @@ Feature: Chat: Messaging
     Background:
         Given I am a user logged into collaborate
 
-    @p1 @automated @Tcdb.TestCaseId=29098 @critical @smoke-chat
     Scenario: Basic Chat Message Can be Sent and Received in Room
       #Logging in
       Then my presence indicators show that I am "available"

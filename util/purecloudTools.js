@@ -13,6 +13,9 @@ module.exports = {
       await this.loginAsAdminApp()
 
       let apiInstance = new platformClient.UsersApi()
-      return apiInstance.postUsers(userBody)
+      try {
+        return await apiInstance.postUsers(userBody)
+      } catch (e) {
+      }
   }
 }
