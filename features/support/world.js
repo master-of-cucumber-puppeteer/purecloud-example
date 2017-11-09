@@ -4,8 +4,9 @@ const featureHelpers = require('../../util/featureHelpers')
 class CustomWorld {
   constructor () {
     this.browser = null
-    this.page = null
+    this.page = null 
     this.featureHelpers = featureHelpers(this)
+
   }
 }
 
